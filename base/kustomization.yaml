@@ -14,8 +14,6 @@ secretGenerator:
 - name: postgres-init
   files:
   - init.sql
-- name: postgres-ssl
-  files:
 
 configMapGenerator:
 - name: postgres-config
